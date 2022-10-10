@@ -15,7 +15,6 @@ h1{
 .row{
     width: 100%;
     display: flex;
-    height: 50px;
     flex-wrap: wrap;
 }
 
@@ -125,4 +124,40 @@ h1{
 
 .offset-12{
     margin-left: calc((100% / 12) * 12);
+}
+
+.start{
+    justify-content: flex-start;
+}
+
+.center{
+    justify-content: center;
+}
+
+.end{
+    justify-content: flex-end;
+}
+
+.top{
+    align-items: flex-start;
+}
+
+.middle{
+    align-items: center;
+}
+
+.bottom{
+    align-items: flex-end;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.xl{
+    height: 100px;
 }
